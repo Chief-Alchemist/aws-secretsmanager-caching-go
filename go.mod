@@ -1,4 +1,4 @@
-module github.com/aws/aws-secretsmanager-caching-go
+module github.com/Chief-Alchemist/aws-secretsmanager-caching-go
 
 go 1.15
 

@@ -17,9 +17,9 @@ import (
 	"context"
 	"time"
 
+	"github.com/Chief-Alchemist/aws-secretsmanager-caching-go/secretcache"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
-	"github.com/aws/aws-secretsmanager-caching-go/secretcache"
 )
 
 // A struct to be used in unit tests as a mock Client
