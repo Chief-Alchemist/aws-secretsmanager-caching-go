@@ -1,9 +1,9 @@
 module github.com/aws/aws-secretsmanager-caching-go
 
-go 1.12
+go 1.15
 
 require (
-	github.com/aws/aws-sdk-go v1.47.10
-	github.com/davecgh/go-spew v1.1.1 // indirect
-	golang.org/x/net v0.18.0 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.23.4
+	github.com/aws/aws-sdk-go-v2/config v1.25.10
+	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.19.10
 )
